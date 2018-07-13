@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-/*  int sensorValue = digitalRead(4);
+  int sensorValue = digitalRead(4);
   if(sensorValue == 1){
     if(nowled == 0){
       digitalWrite(ledpin,HIGH);
@@ -17,8 +17,7 @@ void loop() {
       nowled = 0;
     }
    }
- */
- // Serial.println(nowled);
+Serial.println(nowled);
 analogWrite(ledpin,10);
  
 //  delay(1);  
